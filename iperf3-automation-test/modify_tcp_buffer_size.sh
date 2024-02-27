@@ -21,7 +21,7 @@ case $choice in
 	sysctl -w net.core.wmem_max=8388608
 	sysctl -w net.ipv4.tcp_rmem='8388608 8388608 8388608'
 	sysctl -w net.ipv4.tcp_wmem='8388608 8388608 8388608'
-	sysctl -w net.ipv4.route.flush=1
+#	sysctl -w net.ipv4.route.flush=1
         ;;
     3)
         sysctl -w net.core.rmem_max=212992
