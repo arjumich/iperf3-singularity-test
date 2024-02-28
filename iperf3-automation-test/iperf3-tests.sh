@@ -3,16 +3,16 @@
 IP_ADDRESS="172.31.43.131"
 
 # Number of iperf parallel client connections
-NUM_CONNECTIONS_LIST=(1 4 8 12 50
+NUM_CONNECTIONS_LIST=(1 4 8 12
 )
 
 #for connection numbers 1, grep '\[  4\]' | awk '{print $7}' | tail -n 2 | head -n 1 | bc)
 
 
 # Duration of the iperf test (in seconds)
-TEST_DURATION=10
+TEST_DURATION=30
 
-echo "Running iperf3 tests for 10 seconds on each pass with single and multiple stream"
+echo "Running iperf3 tests for $TEST_DURATION seconds on each pass with single and multiple stream"
 echo "Test starting...."
 
 
@@ -48,7 +48,7 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
 #               echo "$total_bandwidth"
 
 #		if [i -eq 1] || [i -eq 2];then 
-		echo "Taking 1 minute brake before next pass..."
+		echo "Taking 1 second brake before next pass..."
 		sleep 1
 #		fi
         done
@@ -58,6 +58,6 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
         echo "Average Bandwidth for $NUM_CONNECTIONS stream after 3 passes: $average Mbits/sec"
         echo " "
 
-	echo "Taking 5 minute brake before next Pass"
+	echo "Taking 1 second brake before next Pass"
 	sleep 1
 done

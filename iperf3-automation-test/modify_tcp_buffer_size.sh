@@ -3,7 +3,7 @@
 if [ "$#" -ne 1 ]; then
    	echo "Usage: 1: View current buffer size"
 	echo "Usage: 2: Set max buffer size (8MB)"
-	echo "Usage: 1: Reset to default buffer size"
+	echo "Usage: 3: Reset to default buffer size"
     exit 1
 fi
 
