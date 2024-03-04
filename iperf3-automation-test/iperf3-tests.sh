@@ -25,7 +25,7 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
 #run 3 times for one setting and take average of 3 passes
         for ((i = 1; i <= 3; i++)); do
                 # Run iperf test
-                iperf_result=$(iperf3 -c "$IP_ADDRESS" -P "$NUM_CONNECTIONS" -t "$TEST_DURATION" -f m)
+                iperf_result=$(iperf3 -c "$IP_ADDRESS" -P "$NUM_CONNECTIONS" -w 416K -t "$TEST_DURATION" -f m)
 #               echo "$iperf_result"
 
 
@@ -47,9 +47,10 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
                 total_bandwidth=$((total_bandwidth + $(echo "$sender_bandwidth / 1" | bc)))
 #               echo "$total_bandwidth"
 
-#		if [i -eq 1] || [i -eq 2];then 
-		echo "Taking 1 second brake before next pass..."
-		sleep 1
+#		if [i -eq 1] || [i -eq 2];then
+#		sysctl -w net.ipv4.route.flush=1
+		echo "Taking 5 second brake before next pass..."
+		sleep 5
 #		fi
         done
 
@@ -58,6 +59,6 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
         echo "Average Bandwidth for $NUM_CONNECTIONS stream after 3 passes: $average Mbits/sec"
         echo " "
 
-	echo "Taking 1 second brake before next Pass"
-	sleep 1
+	echo "Taking 5 second brake before next Pass"
+	sleep 5
 done
