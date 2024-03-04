@@ -1,6 +1,6 @@
 #!/bin/bash 
 # IP address of the iperf server
-IP_ADDRESS="172.31.43.131"
+IP_ADDRESS="192.168.0.6"
 
 # Number of iperf parallel client connections
 NUM_CONNECTIONS_LIST=(1 4 8 12
@@ -25,7 +25,7 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
 #run 3 times for one setting and take average of 3 passes
         for ((i = 1; i <= 3; i++)); do
                 # Run iperf test
-                iperf_result=$(iperf3 -c "$IP_ADDRESS" -P "$NUM_CONNECTIONS" -w 416K -t "$TEST_DURATION" -f m)
+                iperf_result=$(iperf3 -c "$IP_ADDRESS" -P "$NUM_CONNECTIONS" -t "$TEST_DURATION" -f m)
 #               echo "$iperf_result"
 
 
