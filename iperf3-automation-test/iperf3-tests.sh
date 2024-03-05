@@ -49,8 +49,8 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
 
 #		if [i -eq 1] || [i -eq 2];then
 #		sysctl -w net.ipv4.route.flush=1
-		echo "Taking 5 second brake before next pass..."
-		sleep 5
+		echo "Taking 1 second brake before next pass..."
+		sleep 2
 #		fi
         done
 
@@ -59,6 +59,6 @@ for NUM_CONNECTIONS in "${NUM_CONNECTIONS_LIST[@]}" ; do
         echo "Average Bandwidth for $NUM_CONNECTIONS stream after 3 passes: $average Mbits/sec"
         echo " "
 
-	echo "Taking 5 second brake before next Pass"
-	sleep 5
+	echo "Taking 2 second brake before next Pass"
+	sleep 2
 done

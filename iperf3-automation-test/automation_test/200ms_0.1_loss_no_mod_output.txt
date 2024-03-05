@@ -1,42 +1,4 @@
 Running iperf3 tests for 30 seconds on each pass with single and multiple stream
 Test starting....
 Running test for 1 stream: 
-Bandwidth rate on 1 Pass: 8.01 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 2 Pass: 7.72 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 3 Pass: 7.76 Mbits/sec
-Taking 5 second brake before next pass...
-Average Bandwidth for 1 stream after 3 passes: 7 Mbits/sec
- 
-Taking 5 second brake before next Pass
-Running test for 4 stream: 
-Bandwidth rate on 1 Pass: 30.8 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 2 Pass: 30.4 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 3 Pass: 30.1 Mbits/sec
-Taking 5 second brake before next pass...
-Average Bandwidth for 4 stream after 3 passes: 30 Mbits/sec
- 
-Taking 5 second brake before next Pass
-Running test for 8 stream: 
-Bandwidth rate on 1 Pass: 61.5 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 2 Pass: 60.4 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 3 Pass: 60.3 Mbits/sec
-Taking 5 second brake before next pass...
-Average Bandwidth for 8 stream after 3 passes: 60 Mbits/sec
- 
-Taking 5 second brake before next Pass
-Running test for 12 stream: 
-Bandwidth rate on 1 Pass: 90.5 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 2 Pass: 92.7 Mbits/sec
-Taking 5 second brake before next pass...
-Bandwidth rate on 3 Pass: 90.7 Mbits/sec
-Taking 5 second brake before next pass...
-Average Bandwidth for 12 stream after 3 passes: 90 Mbits/sec
- 
-Taking 5 second brake before next Pass
+Bandwidth rate on 1 Pass:  Mbits/sec
