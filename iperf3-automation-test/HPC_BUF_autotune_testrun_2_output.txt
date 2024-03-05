@@ -1,0 +1,320 @@
+Generating test results for default and modified buffer for 25ms delay and 0.1% loss... 
+---------------------------------------------------------------------------- 
+This testrun is only for modified buffer with tcp_r/wmem_max being double the max of tcp_r/wmem
+Delay and loss settings deleted for enp0s3
+--------------------------------
+Delay of 25ms and loss of 0.1% applied to enp0s3
+------------------------------- 
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.tcp_rmem = 4096 131072 5129504
+net.ipv4.tcp_wmem = 4096 16384 4194304
+net.ipv4.route.flush = 1
+Modified Buffer: 
+---------------------------------------------------------------------------- 
+16384000
+32768000
+16384000
+net.core.rmem_max = 32768000
+net.core.wmem_max = 32768000
+net.ipv4.tcp_rmem = 4096 131072 16384000
+net.ipv4.tcp_wmem = 4096 16384 16384000
+net.ipv4.route.flush = 1
+Running iperf3 tests for 30 seconds on each pass with single and multiple stream
+Test starting....
+Running test for 1 stream: 
+Bandwidth rate on 1 Pass: 58.0 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 36.2 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 29.8 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 1 stream after 3 passes: 41 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 4 stream: 
+Bandwidth rate on 1 Pass: 119 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 123 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 118 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 4 stream after 3 passes: 120 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 8 stream: 
+Bandwidth rate on 1 Pass: 232 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 225 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 223 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 8 stream after 3 passes: 226 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 12 stream: 
+Bandwidth rate on 1 Pass: 281 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 315 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 298 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 12 stream after 3 passes: 298 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Generating test results for default and modified buffer for 50ms delay and 0.1% loss... 
+---------------------------------------------------------------------------- 
+This testrun is only for modified buffer with tcp_r/wmem_max being double the max of tcp_r/wmem
+Delay and loss settings deleted for enp0s3
+--------------------------------
+Delay of 50ms and loss of 0.1% applied to enp0s3
+------------------------------- 
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.tcp_rmem = 4096 131072 5129504
+net.ipv4.tcp_wmem = 4096 16384 4194304
+net.ipv4.route.flush = 1
+Modified Buffer: 
+---------------------------------------------------------------------------- 
+32768000
+65536000
+32768000
+net.core.rmem_max = 65536000
+net.core.wmem_max = 65536000
+net.ipv4.tcp_rmem = 4096 131072 32768000
+net.ipv4.tcp_wmem = 4096 16384 32768000
+net.ipv4.route.flush = 1
+Running iperf3 tests for 30 seconds on each pass with single and multiple stream
+Test starting....
+Running test for 1 stream: 
+Bandwidth rate on 1 Pass: 20.5 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 18.7 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 19.5 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 1 stream after 3 passes: 19 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 4 stream: 
+Bandwidth rate on 1 Pass: 60.6 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 62.4 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 65.8 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 4 stream after 3 passes: 62 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 8 stream: 
+Bandwidth rate on 1 Pass: 118 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 100 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 113 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 8 stream after 3 passes: 110 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 12 stream: 
+Bandwidth rate on 1 Pass: 160 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 157 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 167 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 12 stream after 3 passes: 161 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Generating test results for default and modified buffer for 75ms delay and 0.1% loss... 
+---------------------------------------------------------------------------- 
+This testrun is only for modified buffer with tcp_r/wmem_max being double the max of tcp_r/wmem
+Delay and loss settings deleted for enp0s3
+--------------------------------
+Delay of 75ms and loss of 0.1% applied to enp0s3
+------------------------------- 
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.tcp_rmem = 4096 131072 5129504
+net.ipv4.tcp_wmem = 4096 16384 4194304
+net.ipv4.route.flush = 1
+Modified Buffer: 
+---------------------------------------------------------------------------- 
+49152000
+98304000
+49152000
+net.core.rmem_max = 98304000
+net.core.wmem_max = 98304000
+net.ipv4.tcp_rmem = 4096 131072 49152000
+net.ipv4.tcp_wmem = 4096 16384 49152000
+net.ipv4.route.flush = 1
+Running iperf3 tests for 30 seconds on each pass with single and multiple stream
+Test starting....
+Running test for 1 stream: 
+Bandwidth rate on 1 Pass: 7.04 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 15.4 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 16.4 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 1 stream after 3 passes: 12 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 4 stream: 
+Bandwidth rate on 1 Pass: 44.6 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 46.1 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 42.6 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 4 stream after 3 passes: 44 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 8 stream: 
+Bandwidth rate on 1 Pass: 86.0 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 85.7 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 81.7 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 8 stream after 3 passes: 84 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 12 stream: 
+Bandwidth rate on 1 Pass: 138 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 116 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 116 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 12 stream after 3 passes: 123 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Generating test results for default and modified buffer for 100ms delay and 0.1% loss... 
+---------------------------------------------------------------------------- 
+This testrun is only for modified buffer with tcp_r/wmem_max being double the max of tcp_r/wmem
+Delay and loss settings deleted for enp0s3
+--------------------------------
+Delay of 100ms and loss of 0.1% applied to enp0s3
+------------------------------- 
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.tcp_rmem = 4096 131072 5129504
+net.ipv4.tcp_wmem = 4096 16384 4194304
+net.ipv4.route.flush = 1
+Modified Buffer: 
+---------------------------------------------------------------------------- 
+65536000
+131072000
+65536000
+net.core.rmem_max = 131072000
+net.core.wmem_max = 131072000
+net.ipv4.tcp_rmem = 4096 131072 65536000
+net.ipv4.tcp_wmem = 4096 16384 65536000
+net.ipv4.route.flush = 1
+Running iperf3 tests for 30 seconds on each pass with single and multiple stream
+Test starting....
+Running test for 1 stream: 
+Bandwidth rate on 1 Pass: 5.49 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 11.6 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 13.1 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 1 stream after 3 passes: 9 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 4 stream: 
+Bandwidth rate on 1 Pass: 36.4 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 45.1 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 46.7 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 4 stream after 3 passes: 42 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 8 stream: 
+Bandwidth rate on 1 Pass: 61.9 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 72.1 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 84.2 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 8 stream after 3 passes: 72 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 12 stream: 
+Bandwidth rate on 1 Pass: 100 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 113 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 96.4 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 12 stream after 3 passes: 103 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Generating test results for default and modified buffer for 200ms delay and 0.1% loss... 
+---------------------------------------------------------------------------- 
+This testrun is only for modified buffer with tcp_r/wmem_max being double the max of tcp_r/wmem
+Delay and loss settings deleted for enp0s3
+--------------------------------
+Delay of 200ms and loss of 0.1% applied to enp0s3
+------------------------------- 
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.tcp_rmem = 4096 131072 5129504
+net.ipv4.tcp_wmem = 4096 16384 4194304
+net.ipv4.route.flush = 1
+Modified Buffer: 
+---------------------------------------------------------------------------- 
+131072000
+262144000
+131072000
+net.core.rmem_max = 262144000
+net.core.wmem_max = 262144000
+net.ipv4.tcp_rmem = 4096 131072 131072000
+net.ipv4.tcp_wmem = 4096 16384 131072000
+net.ipv4.route.flush = 1
+Running iperf3 tests for 30 seconds on each pass with single and multiple stream
+Test starting....
+Running test for 1 stream: 
+Bandwidth rate on 1 Pass: 10.6 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 13.0 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 11.7 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 1 stream after 3 passes: 11 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 4 stream: 
+Bandwidth rate on 1 Pass: 41.6 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 27.0 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 50.5 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 4 stream after 3 passes: 39 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 8 stream: 
+Bandwidth rate on 1 Pass: 44.6 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 67.2 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 51.5 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 8 stream after 3 passes: 54 Mbits/sec
+ 
+Taking 2 second brake before next Pass
+Running test for 12 stream: 
+Bandwidth rate on 1 Pass: 75.3 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 2 Pass: 83.4 Mbits/sec
+Taking 1 second brake before next pass...
+Bandwidth rate on 3 Pass: 44.0 Mbits/sec
+Taking 1 second brake before next pass...
+Average Bandwidth for 12 stream after 3 passes: 67 Mbits/sec
+ 
+Taking 2 second brake before next Pass

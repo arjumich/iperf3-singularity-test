@@ -1,9 +1,9 @@
 #!/bin/bash
 
-DELAY_LIST=(0 25 50 75 100 200
+DELAY_LIST=(200
 )
 
-OUTPUT_FOLDER=HPC_BUF_autotune_testrun_1
+OUTPUT_FOLDER=HPC_BUF_autotune_testrun_3
 
 mkdir $OUTPUT_FOLDER
 
@@ -11,7 +11,7 @@ for DELAY in "${DELAY_LIST[@]}" ; do
 
 	echo "Generating test results for default and modified buffer for "$DELAY"ms delay and 0.1% loss... "
 	echo "---------------------------------------------------------------------------- "
-
+	echo "This testrun is only for modified buffer with tcp_r/wmem_max being double the max of tcp_r/wmem"
 	echo "Default Buffer: "
 	echo "--------------------------------"
 	./emmulate_wan.sh -d enp0s3

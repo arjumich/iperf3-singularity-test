@@ -10,7 +10,7 @@ NUM_CONNECTIONS_LIST=(1 4 8 12
 
 
 # Duration of the iperf test (in seconds)
-TEST_DURATION=30
+TEST_DURATION=300
 
 echo "Running iperf3 tests for $TEST_DURATION seconds on each pass with single and multiple stream"
 echo "Test starting...."

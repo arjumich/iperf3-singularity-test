@@ -22,7 +22,9 @@ case $choice in
 	python3 buff_calculate.py "$delay"
 
 	MAX_BUF=$(python3 buff_calculate.py "$delay")
-
+	
+#	mem_max=$((MAX_BUF*2))
+#	echo "$mem_max"
 	echo "$MAX_BUF"
         
 	sysctl -w net.core.rmem_max=$MAX_BUF
